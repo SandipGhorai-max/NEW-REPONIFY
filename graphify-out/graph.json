@@ -1,0 +1,3906 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "id": "config_py",
+      "community": 10,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "Settings",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L4",
+      "id": "reponify_final_1_copy_5_config_settings",
+      "community": 10,
+      "norm_label": "settings"
+    },
+    {
+      "label": "BaseSettings",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basesettings",
+      "community": 10,
+      "norm_label": "basesettings"
+    },
+    {
+      "label": "cerebras_api_keys()",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L24",
+      "id": "reponify_final_1_copy_5_config_cerebras_api_keys",
+      "community": 10,
+      "norm_label": "cerebras_api_keys()"
+    },
+    {
+      "label": "github_tokens()",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L33",
+      "id": "reponify_final_1_copy_5_config_github_tokens",
+      "community": 10,
+      "norm_label": "github_tokens()"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "main_py",
+      "community": 4,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "_cache_key()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L46",
+      "id": "reponify_final_1_copy_5_main_cache_key",
+      "community": 4,
+      "norm_label": "_cache_key()"
+    },
+    {
+      "label": "lifespan()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L58",
+      "id": "reponify_final_1_copy_5_main_lifespan",
+      "community": 4,
+      "norm_label": "lifespan()"
+    },
+    {
+      "label": "SecurityHeadersMiddleware",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L75",
+      "id": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "community": 1,
+      "norm_label": "securityheadersmiddleware"
+    },
+    {
+      "label": "BaseHTTPMiddleware",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basehttpmiddleware",
+      "community": 1,
+      "norm_label": "basehttpmiddleware"
+    },
+    {
+      "label": ".dispatch()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L78",
+      "id": "reponify_final_1_copy_5_main_securityheadersmiddleware_dispatch",
+      "community": 1,
+      "norm_label": ".dispatch()"
+    },
+    {
+      "label": "serve_frontend()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L110",
+      "id": "reponify_final_1_copy_5_main_serve_frontend",
+      "community": 4,
+      "norm_label": "serve_frontend()"
+    },
+    {
+      "label": "health_check()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L117",
+      "id": "reponify_final_1_copy_5_main_health_check",
+      "community": 4,
+      "norm_label": "health_check()"
+    },
+    {
+      "label": "_enforce_cd_after_clone()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L125",
+      "id": "reponify_final_1_copy_5_main_enforce_cd_after_clone",
+      "community": 4,
+      "norm_label": "_enforce_cd_after_clone()"
+    },
+    {
+      "label": "_run_pipeline()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L173",
+      "id": "reponify_final_1_copy_5_main_run_pipeline",
+      "community": 4,
+      "norm_label": "_run_pipeline()"
+    },
+    {
+      "label": "analyze_repo()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L225",
+      "id": "reponify_final_1_copy_5_main_analyze_repo",
+      "community": 4,
+      "norm_label": "analyze_repo()"
+    },
+    {
+      "label": "main.py \u2014 FastAPI entry point for Reponify.  Zero business logic. Only wires up",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "reponify_final_1_copy_5_main_rationale_1",
+      "community": 4,
+      "norm_label": "main.py \u2014 fastapi entry point for reponify.  zero business logic. only wires up"
+    },
+    {
+      "label": "Generate a composite cache key from URL + OS + experience level.",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L47",
+      "id": "reponify_final_1_copy_5_main_rationale_47",
+      "community": 4,
+      "norm_label": "generate a composite cache key from url + os + experience level."
+    },
+    {
+      "label": "Inject standard HTTP security headers on every response.",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L76",
+      "id": "reponify_final_1_copy_5_main_rationale_76",
+      "community": 1,
+      "norm_label": "inject standard http security headers on every response."
+    },
+    {
+      "label": "Serve the frontend index.html from the same origin as the API.",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L111",
+      "id": "reponify_final_1_copy_5_main_rationale_111",
+      "community": 4,
+      "norm_label": "serve the frontend index.html from the same origin as the api."
+    },
+    {
+      "label": "Hardcoded guarantee: cd always follows git clone.     This runs after all AI lay",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L126",
+      "id": "reponify_final_1_copy_5_main_rationale_126",
+      "community": 4,
+      "norm_label": "hardcoded guarantee: cd always follows git clone.     this runs after all ai lay"
+    },
+    {
+      "label": "Execute the 2-layer analysis pipeline (Vision \u2192 Creative).",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L174",
+      "id": "reponify_final_1_copy_5_main_rationale_174",
+      "community": 4,
+      "norm_label": "execute the 2-layer analysis pipeline (vision \u2192 creative)."
+    },
+    {
+      "label": "Analyze a public GitHub repository and return a complete setup guide.      Pipel",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L226",
+      "id": "reponify_final_1_copy_5_main_rationale_226",
+      "community": 4,
+      "norm_label": "analyze a public github repository and return a complete setup guide.      pipel"
+    },
+    {
+      "label": "settings.local.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "id": "claude_settings_local_json",
+      "community": 12,
+      "norm_label": "settings.local.json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "id": "claude_settings_local_permissions",
+      "community": 12,
+      "norm_label": "permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "id": "claude_settings_local_permissions_allow",
+      "community": 12,
+      "norm_label": "allow"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.js",
+      "source_location": "L1",
+      "id": "frontend_eslint_config_js",
+      "community": 13,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "id": "frontend_package_json",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "id": "frontend_package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "id": "frontend_package_private",
+      "community": 5,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "id": "frontend_package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "id": "frontend_package_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "id": "frontend_package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "id": "frontend_package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "id": "frontend_package_scripts_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "id": "frontend_package_scripts_lint",
+      "community": 5,
+      "norm_label": "lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "id": "frontend_package_scripts_preview",
+      "community": 5,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "id": "frontend_package_dependencies",
+      "community": 5,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@splinetool/react-spline",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "id": "frontend_package_dependencies_splinetool_react_spline",
+      "community": 5,
+      "norm_label": "@splinetool/react-spline"
+    },
+    {
+      "label": "@splinetool/runtime",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "id": "frontend_package_dependencies_splinetool_runtime",
+      "community": 5,
+      "norm_label": "@splinetool/runtime"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "id": "frontend_package_dependencies_react",
+      "community": 5,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "id": "frontend_package_dependencies_react_dom",
+      "community": 5,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "id": "frontend_package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "id": "frontend_package_devdependencies_eslint_js",
+      "community": 6,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "id": "frontend_package_devdependencies_types_react",
+      "community": 6,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "community": 6,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "community": 6,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "id": "frontend_package_devdependencies_autoprefixer",
+      "community": 6,
+      "norm_label": "autoprefixer"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "id": "frontend_package_devdependencies_eslint",
+      "community": 6,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 6,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 6,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "id": "frontend_package_devdependencies_globals",
+      "community": 6,
+      "norm_label": "globals"
+    },
+    {
+      "label": "postcss",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "id": "frontend_package_devdependencies_postcss",
+      "community": 6,
+      "norm_label": "postcss"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L29",
+      "id": "frontend_package_devdependencies_tailwindcss",
+      "community": 6,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "id": "frontend_package_devdependencies_vite",
+      "community": 6,
+      "norm_label": "vite"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "frontend/postcss.config.js",
+      "source_location": "L1",
+      "id": "frontend_postcss_config_js",
+      "community": 14,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "frontend/tailwind.config.js",
+      "source_location": "L1",
+      "id": "frontend_tailwind_config_js",
+      "community": 15,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L1",
+      "id": "frontend_vite_config_js",
+      "community": 16,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_jsx",
+      "community": 2,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "ErrorBoundary",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L23",
+      "id": "src_app_errorboundary",
+      "community": 2,
+      "norm_label": "errorboundary"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L24",
+      "id": "src_app_errorboundary_constructor",
+      "community": 2,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getDerivedStateFromError()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L28",
+      "id": "src_app_errorboundary_getderivedstatefromerror",
+      "community": 2,
+      "norm_label": ".getderivedstatefromerror()"
+    },
+    {
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L31",
+      "id": "src_app_errorboundary_render",
+      "community": 2,
+      "norm_label": ".render()"
+    },
+    {
+      "label": "useScrollReveal()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L65",
+      "id": "src_app_usescrollreveal",
+      "community": 2,
+      "norm_label": "usescrollreveal()"
+    },
+    {
+      "label": "AnimatedCounter()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L89",
+      "id": "src_app_animatedcounter",
+      "community": 2,
+      "norm_label": "animatedcounter()"
+    },
+    {
+      "label": "InputSection()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L121",
+      "id": "src_app_inputsection",
+      "community": 2,
+      "norm_label": "inputsection()"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L176",
+      "id": "src_app_app",
+      "community": 2,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_main_jsx",
+      "community": 2,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "Icons.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_icons_jsx",
+      "community": 2,
+      "norm_label": "icons.jsx"
+    },
+    {
+      "label": "Icons",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L3",
+      "id": "components_icons_icons",
+      "community": 2,
+      "norm_label": "icons"
+    },
+    {
+      "label": "osOptions",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L14",
+      "id": "components_icons_osoptions",
+      "community": 2,
+      "norm_label": "osoptions"
+    },
+    {
+      "label": "expOptions",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L20",
+      "id": "components_icons_expoptions",
+      "community": 2,
+      "norm_label": "expoptions"
+    },
+    {
+      "label": "LoadingState.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/LoadingState.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_loadingstate_jsx",
+      "community": 2,
+      "norm_label": "loadingstate.jsx"
+    },
+    {
+      "label": "LoadingState()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/LoadingState.jsx",
+      "source_location": "L3",
+      "id": "components_loadingstate_loadingstate",
+      "community": 2,
+      "norm_label": "loadingstate()"
+    },
+    {
+      "label": "OnboardingModal.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_onboardingmodal_jsx",
+      "community": 2,
+      "norm_label": "onboardingmodal.jsx"
+    },
+    {
+      "label": "OnboardingModal()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L4",
+      "id": "components_onboardingmodal_onboardingmodal",
+      "community": 2,
+      "norm_label": "onboardingmodal()"
+    },
+    {
+      "label": "PrerequisiteCard.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/PrerequisiteCard.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_prerequisitecard_jsx",
+      "community": 11,
+      "norm_label": "prerequisitecard.jsx"
+    },
+    {
+      "label": "PrerequisiteCard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/PrerequisiteCard.jsx",
+      "source_location": "L4",
+      "id": "components_prerequisitecard_prerequisitecard",
+      "community": 11,
+      "norm_label": "prerequisitecard()"
+    },
+    {
+      "label": "ResultsDashboard.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_resultsdashboard_jsx",
+      "community": 11,
+      "norm_label": "resultsdashboard.jsx"
+    },
+    {
+      "label": "CopyButton()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L4",
+      "id": "components_resultsdashboard_copybutton",
+      "community": 11,
+      "norm_label": "copybutton()"
+    },
+    {
+      "label": "ResultsDashboard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L23",
+      "id": "components_resultsdashboard_resultsdashboard",
+      "community": 11,
+      "norm_label": "resultsdashboard()"
+    },
+    {
+      "label": "SettingsModal.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_settingsmodal_jsx",
+      "community": 2,
+      "norm_label": "settingsmodal.jsx"
+    },
+    {
+      "label": "SettingsModal()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L4",
+      "id": "components_settingsmodal_settingsmodal",
+      "community": 2,
+      "norm_label": "settingsmodal()"
+    },
+    {
+      "label": "creative.py",
+      "file_type": "code",
+      "source_file": "layers/creative.py",
+      "source_location": "L1",
+      "id": "layers_creative_py",
+      "community": 3,
+      "norm_label": "creative.py"
+    },
+    {
+      "label": "build_creative_prompt()",
+      "file_type": "code",
+      "source_file": "layers/creative.py",
+      "source_location": "L606",
+      "id": "layers_creative_build_creative_prompt",
+      "community": 3,
+      "norm_label": "build_creative_prompt()"
+    },
+    {
+      "label": "run_creative()",
+      "file_type": "code",
+      "source_file": "layers/creative.py",
+      "source_location": "L614",
+      "id": "layers_creative_run_creative",
+      "community": 3,
+      "norm_label": "run_creative()"
+    },
+    {
+      "label": "layers/creative.py \u2014 Layer 2: Guide Generator  Takes RepoDNA directly from Layer",
+      "file_type": "rationale",
+      "source_file": "layers/creative.py",
+      "source_location": "L1",
+      "id": "layers_creative_rationale_1",
+      "community": 3,
+      "norm_label": "layers/creative.py \u2014 layer 2: guide generator  takes repodna directly from layer"
+    },
+    {
+      "label": "Build the system prompt with the user's OS and experience level injected.",
+      "file_type": "rationale",
+      "source_file": "layers/creative.py",
+      "source_location": "L607",
+      "id": "layers_creative_rationale_607",
+      "community": 3,
+      "norm_label": "build the system prompt with the user's os and experience level injected."
+    },
+    {
+      "label": "Layer 2 \u2014 Guide Generator.      Uses the readme_setup_commands extracted by Laye",
+      "file_type": "rationale",
+      "source_file": "layers/creative.py",
+      "source_location": "L615",
+      "id": "layers_creative_rationale_615",
+      "community": 3,
+      "norm_label": "layer 2 \u2014 guide generator.      uses the readme_setup_commands extracted by laye"
+    },
+    {
+      "label": "vision.py",
+      "file_type": "code",
+      "source_file": "layers/vision.py",
+      "source_location": "L1",
+      "id": "layers_vision_py",
+      "community": 8,
+      "norm_label": "vision.py"
+    },
+    {
+      "label": "run_vision()",
+      "file_type": "code",
+      "source_file": "layers/vision.py",
+      "source_location": "L163",
+      "id": "layers_vision_run_vision",
+      "community": 8,
+      "norm_label": "run_vision()"
+    },
+    {
+      "label": "layers/vision.py \u2014 Layer 1: Repo Vision  Fetches all repository data from GitHub",
+      "file_type": "rationale",
+      "source_file": "layers/vision.py",
+      "source_location": "L1",
+      "id": "layers_vision_rationale_1",
+      "community": 8,
+      "norm_label": "layers/vision.py \u2014 layer 1: repo vision  fetches all repository data from github"
+    },
+    {
+      "label": "Layer 1 \u2014 Repo Vision.      1. Parse the GitHub URL into owner/repo.     2. Fetc",
+      "file_type": "rationale",
+      "source_file": "layers/vision.py",
+      "source_location": "L164",
+      "id": "layers_vision_rationale_164",
+      "community": 8,
+      "norm_label": "layer 1 \u2014 repo vision.      1. parse the github url into owner/repo.     2. fetc"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "layers/__init__.py",
+      "source_location": "L1",
+      "id": "layers_init_py",
+      "community": 17,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L1",
+      "id": "models_schemas_py",
+      "community": 1,
+      "norm_label": "schemas.py"
+    },
+    {
+      "label": "AnalyzeRequest",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L4",
+      "id": "models_schemas_analyzerequest",
+      "community": 1,
+      "norm_label": "analyzerequest"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basemodel",
+      "community": 1,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "RepoOverview",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L9",
+      "id": "models_schemas_repooverview",
+      "community": 1,
+      "norm_label": "repooverview"
+    },
+    {
+      "label": "Prerequisite",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L17",
+      "id": "models_schemas_prerequisite",
+      "community": 1,
+      "norm_label": "prerequisite"
+    },
+    {
+      "label": "DependencyDetail",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L27",
+      "id": "models_schemas_dependencydetail",
+      "community": 1,
+      "norm_label": "dependencydetail"
+    },
+    {
+      "label": "DependencyHealth",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L32",
+      "id": "models_schemas_dependencyhealth",
+      "community": 1,
+      "norm_label": "dependencyhealth"
+    },
+    {
+      "label": "SetupStep",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L39",
+      "id": "models_schemas_setupstep",
+      "community": 1,
+      "norm_label": "setupstep"
+    },
+    {
+      "label": "TechStackItem",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L47",
+      "id": "models_schemas_techstackitem",
+      "community": 1,
+      "norm_label": "techstackitem"
+    },
+    {
+      "label": "CommonError",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L52",
+      "id": "models_schemas_commonerror",
+      "community": 1,
+      "norm_label": "commonerror"
+    },
+    {
+      "label": "ReponifyResponse",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L57",
+      "id": "models_schemas_reponifyresponse",
+      "community": 1,
+      "norm_label": "reponifyresponse"
+    },
+    {
+      "label": "RepoDNA",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L72",
+      "id": "models_schemas_repodna",
+      "community": 1,
+      "norm_label": "repodna"
+    },
+    {
+      "label": "DependencyReport",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L95",
+      "id": "models_schemas_dependencyreport",
+      "community": 1,
+      "norm_label": "dependencyreport"
+    },
+    {
+      "label": "SetupGuide",
+      "file_type": "code",
+      "source_file": "models/schemas.py",
+      "source_location": "L100",
+      "id": "models_schemas_setupguide",
+      "community": 1,
+      "norm_label": "setupguide"
+    },
+    {
+      "label": "Output of Layer 1 (Vision)",
+      "file_type": "rationale",
+      "source_file": "models/schemas.py",
+      "source_location": "L73",
+      "id": "models_schemas_rationale_73",
+      "community": 1,
+      "norm_label": "output of layer 1 (vision)"
+    },
+    {
+      "label": "Output of Layer 2 (Live Research)",
+      "file_type": "rationale",
+      "source_file": "models/schemas.py",
+      "source_location": "L96",
+      "id": "models_schemas_rationale_96",
+      "community": 1,
+      "norm_label": "output of layer 2 (live research)"
+    },
+    {
+      "label": "Output of Layer 2 (Guide Generator) - effectively the final structure",
+      "file_type": "rationale",
+      "source_file": "models/schemas.py",
+      "source_location": "L101",
+      "id": "models_schemas_rationale_101",
+      "community": 1,
+      "norm_label": "output of layer 2 (guide generator) - effectively the final structure"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "models/__init__.py",
+      "source_location": "L1",
+      "id": "models_init_py",
+      "community": 18,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "cerebras.py",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L1",
+      "id": "utils_cerebras_py",
+      "community": 3,
+      "norm_label": "cerebras.py"
+    },
+    {
+      "label": "CerebrasRotator",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L20",
+      "id": "utils_cerebras_cerebrasrotator",
+      "community": 3,
+      "norm_label": "cerebrasrotator"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L21",
+      "id": "utils_cerebras_cerebrasrotator_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._get_client()",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L25",
+      "id": "utils_cerebras_cerebrasrotator_get_client",
+      "community": 3,
+      "norm_label": "._get_client()"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L28",
+      "id": "utils_cerebras_cerebrasrotator_call",
+      "community": 3,
+      "norm_label": ".call()"
+    },
+    {
+      "label": "call_vision()",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L134",
+      "id": "utils_cerebras_call_vision",
+      "community": 3,
+      "norm_label": "call_vision()"
+    },
+    {
+      "label": "call_creative()",
+      "file_type": "code",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L142",
+      "id": "utils_cerebras_call_creative",
+      "community": 3,
+      "norm_label": "call_creative()"
+    },
+    {
+      "label": "utils/cerebras.py \u2014 Cerebras Cloud SDK client for Reponify.  Single LLM provider",
+      "file_type": "rationale",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L1",
+      "id": "utils_cerebras_rationale_1",
+      "community": 3,
+      "norm_label": "utils/cerebras.py \u2014 cerebras cloud sdk client for reponify.  single llm provider"
+    },
+    {
+      "label": "github.py",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L1",
+      "id": "utils_github_py",
+      "community": 0,
+      "norm_label": "github.py"
+    },
+    {
+      "label": "GitHubAuthError",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L28",
+      "id": "utils_github_githubautherror",
+      "community": 0,
+      "norm_label": "githubautherror"
+    },
+    {
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "exception",
+      "community": 0,
+      "norm_label": "exception"
+    },
+    {
+      "label": "GitHubNotFoundError",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L32",
+      "id": "utils_github_githubnotfounderror",
+      "community": 0,
+      "norm_label": "githubnotfounderror"
+    },
+    {
+      "label": "GitHubAPIError",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L36",
+      "id": "utils_github_githubapierror",
+      "community": 0,
+      "norm_label": "githubapierror"
+    },
+    {
+      "label": "parse_github_url()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L45",
+      "id": "utils_github_parse_github_url",
+      "community": 8,
+      "norm_label": "parse_github_url()"
+    },
+    {
+      "label": "_get_http_client()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L88",
+      "id": "utils_github_get_http_client",
+      "community": 0,
+      "norm_label": "_get_http_client()"
+    },
+    {
+      "label": "close_http_client()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L102",
+      "id": "utils_github_close_http_client",
+      "community": 4,
+      "norm_label": "close_http_client()"
+    },
+    {
+      "label": "_headers()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L116",
+      "id": "utils_github_headers",
+      "community": 0,
+      "norm_label": "_headers()"
+    },
+    {
+      "label": "_is_github_rate_limit()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L124",
+      "id": "utils_github_is_github_rate_limit",
+      "community": 0,
+      "norm_label": "_is_github_rate_limit()"
+    },
+    {
+      "label": "_get()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L134",
+      "id": "utils_github_get",
+      "community": 0,
+      "norm_label": "_get()"
+    },
+    {
+      "label": "fetch_readme()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L197",
+      "id": "utils_github_fetch_readme",
+      "community": 0,
+      "norm_label": "fetch_readme()"
+    },
+    {
+      "label": "fetch_file()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L212",
+      "id": "utils_github_fetch_file",
+      "community": 0,
+      "norm_label": "fetch_file()"
+    },
+    {
+      "label": "fetch_tree()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L226",
+      "id": "utils_github_fetch_tree",
+      "community": 0,
+      "norm_label": "fetch_tree()"
+    },
+    {
+      "label": "fetch_repo_meta()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L265",
+      "id": "utils_github_fetch_repo_meta",
+      "community": 0,
+      "norm_label": "fetch_repo_meta()"
+    },
+    {
+      "label": "fetch_release_installers()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L309",
+      "id": "utils_github_fetch_release_installers",
+      "community": 0,
+      "norm_label": "fetch_release_installers()"
+    },
+    {
+      "label": "fetch_all_repo_data()",
+      "file_type": "code",
+      "source_file": "utils/github.py",
+      "source_location": "L359",
+      "id": "utils_github_fetch_all_repo_data",
+      "community": 0,
+      "norm_label": "fetch_all_repo_data()"
+    },
+    {
+      "label": "utils/github.py \u2014 GitHub REST API client for Reponify.  Handles all GitHub data",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L1",
+      "id": "utils_github_rationale_1",
+      "community": 0,
+      "norm_label": "utils/github.py \u2014 github rest api client for reponify.  handles all github data"
+    },
+    {
+      "label": "Raised when GitHub returns 401/403 \u2014 invalid or missing token.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L29",
+      "id": "utils_github_rationale_29",
+      "community": 0,
+      "norm_label": "raised when github returns 401/403 \u2014 invalid or missing token."
+    },
+    {
+      "label": "Raised when the repository genuinely does not exist (404).",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L33",
+      "id": "utils_github_rationale_33",
+      "community": 0,
+      "norm_label": "raised when the repository genuinely does not exist (404)."
+    },
+    {
+      "label": "Raised for any other GitHub API failure.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L37",
+      "id": "utils_github_rationale_37",
+      "community": 0,
+      "norm_label": "raised for any other github api failure."
+    },
+    {
+      "label": "Extract (owner, repo) from a GitHub URL.     Supports:       https://github.com/",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L46",
+      "id": "utils_github_rationale_46",
+      "community": 8,
+      "norm_label": "extract (owner, repo) from a github url.     supports:       https://github.com/"
+    },
+    {
+      "label": "Return the shared async client, creating it on first use.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L89",
+      "id": "utils_github_rationale_89",
+      "community": 0,
+      "norm_label": "return the shared async client, creating it on first use."
+    },
+    {
+      "label": "Cleanly close the shared client on app shutdown.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L103",
+      "id": "utils_github_rationale_103",
+      "community": 4,
+      "norm_label": "cleanly close the shared client on app shutdown."
+    },
+    {
+      "label": "Fire a GET request against the GitHub REST API.  (T2-2 + T2-3)     - Uses the po",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L135",
+      "id": "utils_github_rationale_135",
+      "community": 0,
+      "norm_label": "fire a get request against the github rest api.  (t2-2 + t2-3)     - uses the po"
+    },
+    {
+      "label": "Fetch the decoded README content. Returns empty string if missing.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L198",
+      "id": "utils_github_rationale_198",
+      "community": 0,
+      "norm_label": "fetch the decoded readme content. returns empty string if missing."
+    },
+    {
+      "label": "Fetch a single file's decoded content. Returns None if not found.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L213",
+      "id": "utils_github_rationale_213",
+      "community": 0,
+      "norm_label": "fetch a single file's decoded content. returns none if not found."
+    },
+    {
+      "label": "Fetch the full recursive file tree.     Returns a list of file paths (blobs only",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L227",
+      "id": "utils_github_rationale_227",
+      "community": 0,
+      "norm_label": "fetch the full recursive file tree.     returns a list of file paths (blobs only"
+    },
+    {
+      "label": "Fetch repository metadata (name, description, stars, language, topics).",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L266",
+      "id": "utils_github_rationale_266",
+      "community": 0,
+      "norm_label": "fetch repository metadata (name, description, stars, language, topics)."
+    },
+    {
+      "label": "Check GitHub Releases API for direct download packages     matching the user's O",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L310",
+      "id": "utils_github_rationale_310",
+      "community": 0,
+      "norm_label": "check github releases api for direct download packages     matching the user's o"
+    },
+    {
+      "label": "Master function \u2014 fetches everything needed for Layer 1 in parallel-ish fashion.",
+      "file_type": "rationale",
+      "source_file": "utils/github.py",
+      "source_location": "L360",
+      "id": "utils_github_rationale_360",
+      "community": 0,
+      "norm_label": "master function \u2014 fetches everything needed for layer 1 in parallel-ish fashion."
+    },
+    {
+      "label": "json_cleaner.py",
+      "file_type": "code",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L1",
+      "id": "utils_json_cleaner_py",
+      "community": 3,
+      "norm_label": "json_cleaner.py"
+    },
+    {
+      "label": "clean_and_parse()",
+      "file_type": "code",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L13",
+      "id": "utils_json_cleaner_clean_and_parse",
+      "community": 3,
+      "norm_label": "clean_and_parse()"
+    },
+    {
+      "label": "Universal JSON cleaner for AI model responses. Handles every known failure mode",
+      "file_type": "rationale",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L1",
+      "id": "utils_json_cleaner_rationale_1",
+      "community": 3,
+      "norm_label": "universal json cleaner for ai model responses. handles every known failure mode"
+    },
+    {
+      "label": "Takes raw AI model output.     Returns a clean Python dictionary.     Never fail",
+      "file_type": "rationale",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L14",
+      "id": "utils_json_cleaner_rationale_14",
+      "community": 3,
+      "norm_label": "takes raw ai model output.     returns a clean python dictionary.     never fail"
+    },
+    {
+      "label": "key_manager.py",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L1",
+      "id": "utils_key_manager_py",
+      "community": 7,
+      "norm_label": "key_manager.py"
+    },
+    {
+      "label": "RoundRobinRotator",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L4",
+      "id": "utils_key_manager_roundrobinrotator",
+      "community": 7,
+      "norm_label": "roundrobinrotator"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L5",
+      "id": "utils_key_manager_roundrobinrotator_init",
+      "community": 7,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".get_current()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L11",
+      "id": "utils_key_manager_roundrobinrotator_get_current",
+      "community": 7,
+      "norm_label": ".get_current()"
+    },
+    {
+      "label": ".rotate()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L15",
+      "id": "utils_key_manager_roundrobinrotator_rotate",
+      "community": 7,
+      "norm_label": ".rotate()"
+    },
+    {
+      "label": ".get_all()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L20",
+      "id": "utils_key_manager_roundrobinrotator_get_all",
+      "community": 7,
+      "norm_label": ".get_all()"
+    },
+    {
+      "label": "count()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L24",
+      "id": "utils_key_manager_count",
+      "community": 7,
+      "norm_label": "count()"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L28",
+      "id": "utils_key_manager_index",
+      "community": 7,
+      "norm_label": "index()"
+    },
+    {
+      "label": ".reset_index()",
+      "file_type": "code",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L32",
+      "id": "utils_key_manager_roundrobinrotator_reset_index",
+      "community": 7,
+      "norm_label": ".reset_index()"
+    },
+    {
+      "label": "knowledge_base.py",
+      "file_type": "code",
+      "source_file": "utils/knowledge_base.py",
+      "source_location": "L1",
+      "id": "utils_knowledge_base_py",
+      "community": 8,
+      "norm_label": "knowledge_base.py"
+    },
+    {
+      "label": "get_prerequisite()",
+      "file_type": "code",
+      "source_file": "utils/knowledge_base.py",
+      "source_location": "L600",
+      "id": "utils_knowledge_base_get_prerequisite",
+      "community": 8,
+      "norm_label": "get_prerequisite()"
+    },
+    {
+      "label": "get_os_specific_data()",
+      "file_type": "code",
+      "source_file": "utils/knowledge_base.py",
+      "source_location": "L610",
+      "id": "utils_knowledge_base_get_os_specific_data",
+      "community": 8,
+      "norm_label": "get_os_specific_data()"
+    },
+    {
+      "label": "logging_config.py",
+      "file_type": "code",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L1",
+      "id": "utils_logging_config_py",
+      "community": 9,
+      "norm_label": "logging_config.py"
+    },
+    {
+      "label": "_JSONFormatter",
+      "file_type": "code",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L16",
+      "id": "utils_logging_config_jsonformatter",
+      "community": 9,
+      "norm_label": "_jsonformatter"
+    },
+    {
+      "label": ".format()",
+      "file_type": "code",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L19",
+      "id": "utils_logging_config_jsonformatter_format",
+      "community": 9,
+      "norm_label": ".format()"
+    },
+    {
+      "label": "setup_logging()",
+      "file_type": "code",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L32",
+      "id": "utils_logging_config_setup_logging",
+      "community": 9,
+      "norm_label": "setup_logging()"
+    },
+    {
+      "label": "utils/logging_config.py \u2014 Structured JSON logging for Reponify.  Call setup_logg",
+      "file_type": "rationale",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L1",
+      "id": "utils_logging_config_rationale_1",
+      "community": 9,
+      "norm_label": "utils/logging_config.py \u2014 structured json logging for reponify.  call setup_logg"
+    },
+    {
+      "label": "Emit each log record as a single-line JSON object.",
+      "file_type": "rationale",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L17",
+      "id": "utils_logging_config_rationale_17",
+      "community": 9,
+      "norm_label": "emit each log record as a single-line json object."
+    },
+    {
+      "label": "Configure root logger with JSON output to stdout.     Call once at application s",
+      "file_type": "rationale",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L33",
+      "id": "utils_logging_config_rationale_33",
+      "community": 9,
+      "norm_label": "configure root logger with json output to stdout.     call once at application s"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "utils/__init__.py",
+      "source_location": "L1",
+      "id": "utils_init_py",
+      "community": 19,
+      "norm_label": "__init__.py"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "config_py",
+      "target": "reponify_final_1_copy_5_config_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "config_py",
+      "target": "reponify_final_1_copy_5_config_cerebras_api_keys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "config_py",
+      "target": "reponify_final_1_copy_5_config_github_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_config_settings",
+      "target": "basesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_cache_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_lifespan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_serve_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_health_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_enforce_cd_after_clone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_run_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "reponify_final_1_copy_5_main_analyze_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_1",
+      "target": "main_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_analyze_repo",
+      "target": "reponify_final_1_copy_5_main_cache_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_47",
+      "target": "reponify_final_1_copy_5_main_cache_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_lifespan",
+      "target": "utils_github_close_http_client"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "basehttpmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "reponify_final_1_copy_5_main_securityheadersmiddleware_dispatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_76",
+      "target": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L28",
+      "weight": 0.8,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "models_schemas_analyzerequest",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L28",
+      "weight": 0.8,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "models_schemas_reponifyresponse",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L31",
+      "weight": 0.8,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "utils_github_githubautherror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L31",
+      "weight": 0.8,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "utils_github_githubnotfounderror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L156",
+      "weight": 0.8,
+      "source": "reponify_final_1_copy_5_main_securityheadersmiddleware",
+      "target": "models_schemas_setupstep",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_111",
+      "target": "reponify_final_1_copy_5_main_serve_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_run_pipeline",
+      "target": "reponify_final_1_copy_5_main_enforce_cd_after_clone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_126",
+      "target": "reponify_final_1_copy_5_main_enforce_cd_after_clone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_enforce_cd_after_clone",
+      "target": "models_schemas_setupstep"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_analyze_repo",
+      "target": "reponify_final_1_copy_5_main_run_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_174",
+      "target": "reponify_final_1_copy_5_main_run_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_run_pipeline",
+      "target": "utils_github_parse_github_url"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_run_pipeline",
+      "target": "layers_vision_run_vision"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_run_pipeline",
+      "target": "layers_creative_run_creative"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "reponify_final_1_copy_5_main_rationale_226",
+      "target": "reponify_final_1_copy_5_main_analyze_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_splinetool_react_spline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_splinetool_runtime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_loadingstate_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_onboardingmodal_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_settingsmodal_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_resultsdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_icons_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "components_icons_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "components_icons_osoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "components_icons_expoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_errorboundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_animatedcounter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_inputsection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "frontend_src_app_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_app_errorboundary",
+      "target": "src_app_errorboundary_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_app_errorboundary",
+      "target": "src_app_errorboundary_getderivedstatefromerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_app_errorboundary",
+      "target": "src_app_errorboundary_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "src_app_errorboundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "src_app_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_icons_jsx",
+      "target": "components_icons_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_components_icons_jsx",
+      "target": "components_icons_osoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Icons.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_src_components_icons_jsx",
+      "target": "components_icons_expoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_onboardingmodal_jsx",
+      "target": "frontend_src_components_icons_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_settingsmodal_jsx",
+      "target": "frontend_src_components_icons_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_onboardingmodal_jsx",
+      "target": "components_icons_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_settingsmodal_jsx",
+      "target": "components_icons_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_onboardingmodal_jsx",
+      "target": "components_icons_osoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_settingsmodal_jsx",
+      "target": "components_icons_osoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_onboardingmodal_jsx",
+      "target": "components_icons_expoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_settingsmodal_jsx",
+      "target": "components_icons_expoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/LoadingState.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_loadingstate_jsx",
+      "target": "components_loadingstate_loadingstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/OnboardingModal.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_onboardingmodal_jsx",
+      "target": "components_onboardingmodal_onboardingmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_resultsdashboard_jsx",
+      "target": "frontend_src_components_prerequisitecard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/PrerequisiteCard.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_prerequisitecard_jsx",
+      "target": "components_resultsdashboard_copybutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/PrerequisiteCard.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_prerequisitecard_jsx",
+      "target": "components_prerequisitecard_prerequisitecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_resultsdashboard_jsx",
+      "target": "components_resultsdashboard_copybutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultsDashboard.jsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_src_components_resultsdashboard_jsx",
+      "target": "components_resultsdashboard_resultsdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SettingsModal.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_settingsmodal_jsx",
+      "target": "components_settingsmodal_settingsmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L606",
+      "weight": 1.0,
+      "source": "layers_creative_py",
+      "target": "layers_creative_build_creative_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L614",
+      "weight": 1.0,
+      "source": "layers_creative_py",
+      "target": "layers_creative_run_creative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "layers_creative_rationale_1",
+      "target": "layers_creative_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L652",
+      "weight": 1.0,
+      "source": "layers_creative_run_creative",
+      "target": "layers_creative_build_creative_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L607",
+      "weight": 1.0,
+      "source": "layers_creative_rationale_607",
+      "target": "layers_creative_build_creative_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/creative.py",
+      "source_location": "L615",
+      "weight": 1.0,
+      "source": "layers_creative_rationale_615",
+      "target": "layers_creative_run_creative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/creative.py",
+      "source_location": "L657",
+      "weight": 1.0,
+      "source": "layers_creative_run_creative",
+      "target": "utils_cerebras_call_creative"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/creative.py",
+      "source_location": "L658",
+      "weight": 1.0,
+      "source": "layers_creative_run_creative",
+      "target": "models_schemas_setupguide"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/creative.py",
+      "source_location": "L680",
+      "weight": 1.0,
+      "source": "layers_creative_run_creative",
+      "target": "exception"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/vision.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "layers_vision_py",
+      "target": "layers_vision_run_vision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/vision.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "layers_vision_rationale_1",
+      "target": "layers_vision_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "layers/vision.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "layers_vision_rationale_164",
+      "target": "layers_vision_run_vision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_github_parse_github_url"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_github_fetch_all_repo_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "exception"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_cerebras_call_vision"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "models_schemas_repodna"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_knowledge_base_get_prerequisite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_knowledge_base_get_os_specific_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "layers/vision.py",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "layers_vision_run_vision",
+      "target": "utils_github_fetch_release_installers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_analyzerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_repooverview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_prerequisite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_dependencydetail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_dependencyhealth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_setupstep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_techstackitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_commonerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_reponifyresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_repodna",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_dependencyreport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "models_schemas_py",
+      "target": "models_schemas_setupguide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_schemas_analyzerequest",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "models_schemas_repooverview",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "models_schemas_prerequisite",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "models_schemas_dependencydetail",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "models_schemas_dependencyhealth",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "models_schemas_setupstep",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "models_schemas_techstackitem",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "models_schemas_commonerror",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "models_schemas_reponifyresponse",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "models_schemas_repodna",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "models_schemas_dependencyreport",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "models_schemas_setupguide",
+      "target": "models_schemas_reponifyresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "models_schemas_rationale_73",
+      "target": "models_schemas_repodna",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "models_schemas_rationale_96",
+      "target": "models_schemas_dependencyreport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/schemas.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "models_schemas_rationale_101",
+      "target": "models_schemas_setupguide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "utils_cerebras_py",
+      "target": "utils_cerebras_cerebrasrotator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "utils_cerebras_py",
+      "target": "utils_cerebras_call_vision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "utils_cerebras_py",
+      "target": "utils_cerebras_call_creative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_cerebras_rationale_1",
+      "target": "utils_cerebras_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "utils_cerebras_cerebrasrotator",
+      "target": "utils_cerebras_cerebrasrotator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "utils_cerebras_cerebrasrotator",
+      "target": "utils_cerebras_cerebrasrotator_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "utils_cerebras_cerebrasrotator",
+      "target": "utils_cerebras_cerebrasrotator_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "utils_cerebras_cerebrasrotator_call",
+      "target": "utils_cerebras_cerebrasrotator_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "utils_cerebras_call_vision",
+      "target": "utils_cerebras_cerebrasrotator_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/cerebras.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "utils_cerebras_call_creative",
+      "target": "utils_cerebras_cerebrasrotator_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "utils/cerebras.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "utils_cerebras_cerebrasrotator_call",
+      "target": "utils_json_cleaner_clean_and_parse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_githubautherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_githubnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_githubapierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_parse_github_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_get_http_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_close_http_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_is_github_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_readme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_tree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_repo_meta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L309",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_release_installers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L359",
+      "weight": 1.0,
+      "source": "utils_github_py",
+      "target": "utils_github_fetch_all_repo_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_github_rationale_1",
+      "target": "utils_github_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "utils_github_githubautherror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "utils_github_get",
+      "target": "utils_github_githubautherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "utils_github_rationale_29",
+      "target": "utils_github_githubautherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "utils_github_githubnotfounderror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "utils_github_githubapierror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "utils_github_fetch_all_repo_data",
+      "target": "utils_github_githubnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "utils_github_rationale_33",
+      "target": "utils_github_githubnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "utils_github_get",
+      "target": "utils_github_githubapierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "utils_github_rationale_37",
+      "target": "utils_github_githubapierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "utils_github_rationale_46",
+      "target": "utils_github_parse_github_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "utils_github_get",
+      "target": "utils_github_get_http_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "utils_github_rationale_89",
+      "target": "utils_github_get_http_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "utils_github_rationale_103",
+      "target": "utils_github_close_http_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "utils_github_get",
+      "target": "utils_github_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "utils_github_get",
+      "target": "utils_github_is_github_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "utils_github_fetch_readme",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "utils_github_fetch_file",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "utils_github_fetch_tree",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "utils_github_fetch_repo_meta",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L330",
+      "weight": 1.0,
+      "source": "utils_github_fetch_release_installers",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "utils_github_rationale_135",
+      "target": "utils_github_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L376",
+      "weight": 1.0,
+      "source": "utils_github_fetch_all_repo_data",
+      "target": "utils_github_fetch_readme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "utils_github_rationale_198",
+      "target": "utils_github_fetch_readme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L408",
+      "weight": 1.0,
+      "source": "utils_github_fetch_all_repo_data",
+      "target": "utils_github_fetch_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "utils_github_rationale_213",
+      "target": "utils_github_fetch_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "utils_github_fetch_all_repo_data",
+      "target": "utils_github_fetch_tree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "utils_github_rationale_227",
+      "target": "utils_github_fetch_tree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L369",
+      "weight": 1.0,
+      "source": "utils_github_fetch_all_repo_data",
+      "target": "utils_github_fetch_repo_meta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "utils_github_rationale_266",
+      "target": "utils_github_fetch_repo_meta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L310",
+      "weight": 1.0,
+      "source": "utils_github_rationale_310",
+      "target": "utils_github_fetch_release_installers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/github.py",
+      "source_location": "L360",
+      "weight": 1.0,
+      "source": "utils_github_rationale_360",
+      "target": "utils_github_fetch_all_repo_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "utils_json_cleaner_py",
+      "target": "utils_json_cleaner_clean_and_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_json_cleaner_rationale_1",
+      "target": "utils_json_cleaner_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/json_cleaner.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "utils_json_cleaner_rationale_14",
+      "target": "utils_json_cleaner_clean_and_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "utils_key_manager_py",
+      "target": "utils_key_manager_roundrobinrotator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "utils_key_manager_py",
+      "target": "utils_key_manager_count",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "utils_key_manager_py",
+      "target": "utils_key_manager_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "utils_key_manager_roundrobinrotator",
+      "target": "utils_key_manager_roundrobinrotator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "utils_key_manager_roundrobinrotator",
+      "target": "utils_key_manager_roundrobinrotator_get_current",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "utils_key_manager_roundrobinrotator",
+      "target": "utils_key_manager_roundrobinrotator_rotate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "utils_key_manager_roundrobinrotator",
+      "target": "utils_key_manager_roundrobinrotator_get_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/key_manager.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "utils_key_manager_roundrobinrotator",
+      "target": "utils_key_manager_roundrobinrotator_reset_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/knowledge_base.py",
+      "source_location": "L600",
+      "weight": 1.0,
+      "source": "utils_knowledge_base_py",
+      "target": "utils_knowledge_base_get_prerequisite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/knowledge_base.py",
+      "source_location": "L610",
+      "weight": 1.0,
+      "source": "utils_knowledge_base_py",
+      "target": "utils_knowledge_base_get_os_specific_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "utils_logging_config_py",
+      "target": "utils_logging_config_jsonformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "utils_logging_config_py",
+      "target": "utils_logging_config_setup_logging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_logging_config_rationale_1",
+      "target": "utils_logging_config_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "utils_logging_config_jsonformatter",
+      "target": "utils_logging_config_jsonformatter_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "utils_logging_config_setup_logging",
+      "target": "utils_logging_config_jsonformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "utils_logging_config_rationale_17",
+      "target": "utils_logging_config_jsonformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils/logging_config.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "utils_logging_config_rationale_33",
+      "target": "utils_logging_config_setup_logging",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
