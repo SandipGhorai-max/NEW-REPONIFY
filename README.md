@@ -1,191 +1,138 @@
 <div align="center">
 
-# ⚡ REPONIFY
+<img src="frontend/src/assets/LOGO.png" alt="Reponify Logo" width="150" height="150" style="border-radius: 20px; box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);">
+
+# <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=48&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&height=80&lines=REPONIFY;From+Zero+to+Running;AI-Powered+Setup+Guides;Stop+Guessing,+Start+Coding" alt="Animated Typing Header" />
 
 **Transform any public GitHub repository into a precise, step-by-step setup guide customized to your OS and experience level in seconds.**
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Cerebras LLM](https://img.shields.io/badge/Cerebras_AI-FF6F00?style=for-the-badge&logo=cpu&logoColor=white)](https://cerebras.ai)
-[![Python 3.12](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-
 <p align="center">
-  <a href="#-key-features">Key Features</a> •
-  <a href="#-architecture--pipeline">AI Pipeline</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-installation--setup">Setup Guide</a> •
-  <a href="#-developer-profiles">Developer Profiles</a>
+  <img src="https://img.shields.io/badge/Powered%20by-Cerebras%20AI-FF6F00?style=for-the-badge&logo=cpu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-React%2019%20%2B%20Vite-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI%20%2B%20Python-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Design-TailwindCSS%20%2B%203D%20Spline-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </p>
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
-## 📸 Interactive UI Preview
+## 🚀 The Reponify Experience
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│  ⚡ REPONIFY (Windows | Beginner)                                          │
-├────────────────────────────────────────────────────────────────────────────┤
-│  Enter Public GitHub URL: [ https://github.com/vercel/next.js           ]  │
-│                                                                            │
-│  [ Analyzing repository... ]                                               │
-│  ◈ Layer 1: Extracting RepoDNA... [OK]                                     │
-│  ◈ Layer 2: Designing setup guides... [OK]                                 │
-│                                                                            │
-├────────────────────────────────────────────────────────────────────────────┤
-│  🚀 SETUP GUIDE FOR WINDOWS                                                │
-│                                                                            │
-│  Step 1: Install Node.js                                                   │
-│  $ winget install OpenJS.NodeJS.LTS                                        │
-│  └─ Explanation: Downloads and installs Node.js via Windows Package Manager.│
-│                                                                            │
-│  Step 2: Enter project folder                                              │
-│  $ cd next.js                                                              │
-│                                                                            │
-│  Step 3: Run development server                                            │
-│  $ npm run dev                                                             │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+*Reponify features a fully interactive 3D WebGL Spline model integrated seamlessly into a gorgeous, glassmorphic UI, ensuring that setting up projects feels like stepping into the future.*
 
----
+<div align="center">
+  <img src="frontend/src/assets/paste-url.png" alt="Hero UI Preview" width="85%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.4);" />
+</div>
 
-## ⚡ Key Features
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
-| Feature | Description | Technical Implementation |
-| :--- | :--- | :--- |
-| **🔑 Key Rotation** | Prevent rate limits & key exhaustion automatically. | Thread-safe `RoundRobinRotator` dynamically swaps keys on `429` or server errors. |
-| **💻 OS-Aware Commands** | Generate exact commands matching the developer's environment. | Windows gets PowerShell/winget; macOS gets Homebrew; Linux gets apt/yum. |
-| **🧠 Level Customization** | Adaptive content based on developer expertise. | Tailors explanations, safety checks, and commands from *Beginner* to *Advanced*. |
-| **📦 Dependency Health** | Scans repository packages and scores compatibility health. | Pydantic validation mapping dependencies to health status models. |
-| **💾 composite caching** | Zero-latency responses for popular repositories. | `TTLCache` with 1-hour TTL keyed by composite (URL + OS + Experience). |
+## 🌈 Visual Feature Showcase
 
----
+We don't just generate text. We analyze the exact DNA of a repository and provide a stunning visual dashboard of its health, requirements, and commands.
 
-## ⚙️ Architecture & Pipeline
+<table align="center" width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="50%" align="center" style="border: none;">
+      <img src="frontend/src/assets/os-aware-commands.jpeg" width="90%" style="border-radius:10px; box-shadow: 0 10px 20px rgba(0,212,255,0.1);" />
+      <br><br><strong>💻 OS-Aware Commands</strong><br><sub>No more translating Linux instructions for Windows. Get exact `winget`, `brew`, or `apt` commands natively.</sub>
+    </td>
+    <td width="50%" align="center" style="border: none;">
+      <img src="frontend/src/assets/dependency-health.jpg" width="90%" style="border-radius:10px; box-shadow: 0 10px 20px rgba(0,212,255,0.1);" />
+      <br><br><strong>🏥 Dependency Health Checks</strong><br><sub>Visually score the health of the tech stack and flag deprecated packages before you even install them.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" style="border: none; padding-top: 20px;">
+      <img src="frontend/src/assets/error-prediction.jpg" width="90%" style="border-radius:10px; box-shadow: 0 10px 20px rgba(0,212,255,0.1);" />
+      <br><br><strong>⚠️ Predictive Error Fixing</strong><br><sub>Reponify anticipates common compilation and runtime errors for the stack, providing instant fixes.</sub>
+    </td>
+    <td width="50%" align="center" style="border: none; padding-top: 20px;">
+      <img src="frontend/src/assets/tech-stack-explainer.jpg" width="90%" style="border-radius:10px; box-shadow: 0 10px 20px rgba(0,212,255,0.1);" />
+      <br><br><strong>🧠 Tech Stack Explainer</strong><br><sub>Perfect for beginners: Plain-English explanations of every technology powering the repository.</sub>
+    </td>
+  </tr>
+</table>
 
-Reponify coordinates a multi-layer pipeline utilizing **Cerebras Cloud SDK** for lightning-fast inference times.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+
+## ⚡ 4-Layer AI Pipeline
+
+Under the hood, Reponify coordinates an ultra-fast **Cerebras Llama 3.1 8B** and **GPT-OSS 120B** LLM pipeline.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor User as Developer
-    participant FE as React Frontend (Vite)
-    participant BE as FastAPI Backend
-    participant L1 as Layer 1 (Repo Vision)
-    participant L2 as Layer 2 (Guide Generator)
-    participant KB as Knowledge Base
+    actor Developer
+    participant UI as 3D React Frontend
+    participant Core as FastAPI Engine
+    participant V1 as Vision Layer (Llama 3.1)
+    participant C2 as Creative Layer (GPT-OSS)
 
-    User->>FE: Input GitHub URL + OS + Exp Level
-    FE->>BE: POST /analyze
-    Note over BE: Check TTLCache for hit
-    BE->>L1: Run Vision Layer (Llama 3.1 8B)
-    Note over L1: Fetches file tree, readme, config
-    L1-->>BE: Returns RepoDNA Model
-    BE->>L2: Run Creative Layer (GPT-OSS 120B)
-    L2->>KB: Verify prerequisites against KB rules
-    KB-->>L2: Inject verified install/verify commands
-    L2-->>BE: Returns SetupGuide JSON
-    BE->>FE: Return JSON Response
-    FE-->>User: Render Interactive Step-by-Step UI
+    Developer->>UI: Input https://github.com/owner/repo
+    UI->>Core: Analyze with [OS] & [Experience Level]
+    Core->>V1: Parse File Tree, Configs, Package.json
+    Note over V1: Extracts exact repo DNA & commands
+    V1-->>Core: Return Structured RepoDNA JSON
+    Core->>C2: Generate custom step-by-step guide
+    Note over C2: Injects Official Download URLs & Fixes
+    C2-->>Core: Return SetupGuide JSON
+    Core-->>UI: Serve Guide & Health Score
+    UI-->>Developer: Render Beautiful Step-by-Step UI
 ```
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
-## 📂 Project Structure
+## 🌟 Developer Profiles
 
-```yml
-REPONIFY:
-  # FastAPI Backend Service
-  - main.py: FastAPI setup, CORS policies, health check, and endpoints
-  - config.py: Configuration variables, environment, and token listings
-  - models/
-    - schemas.py: Data structure definitions (RepoDNA, SetupGuide, TechStackItem)
-  - layers/
-    - vision.py: Layer 1 logic (extracting metadata and raw readme commands)
-    - creative.py: Layer 2 logic (writing personalized instructions)
-  - utils/
-    - key_manager.py: Thread-safe token rotator
-    - cerebras.py: Cerebras API handler with auto context-limit truncation
-    - github.py: GitHub API helper for repository assets and downloads
-    - knowledge_base.py: Standardized installations and verification mappings
+Customize the generated guide to match your exact expertise.
 
-  # React 19 Frontend App
-  - frontend/
-    - src/
-      - App.jsx: Main landing page, inputs, state, and spline animation mount
-      - components/
-        - ResultsDashboard.jsx: Displays step-by-step guides and health status
-        - SettingsModal.jsx: Configures OS and Experience Level
-        - LoadingState.jsx: Implements custom loading animations
-      - index.css: Visual system tokens, background glows, and layout styles
-```
+*   🔰 **Beginner**: Verbosely explains concepts, includes verification commands, and holds your hand.
+*   🛠️ **Intermediate**: Focuses purely on project-specific steps with light assistance.
+*   ⚡ **Advanced**: Zero prose. Maximum density. Just raw, actionable shell commands.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
-## 👤 Developer Profiles
+## 🛠️ Quick Start
 
-Our AI adapts language and instruction complexity to the developer's experience profile:
+### 1. Requirements
+* <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white" /> 
+* <img src="https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js&logoColor=white" />
 
-*   **🟢 Beginner Profile**
-    *   Adds verification check steps (e.g. `node --version`).
-    *   Plain English explanations for every command.
-    *   Highlights what concept is learned at each stage.
-*   **🟡 Intermediate Profile**
-    *   Focuses exclusively on repository-specific commands.
-    *   Skips basic package manager explanations.
-*   **🔴 Advanced Profile**
-    *   Returns raw shell commands.
-    *   Zero prose, zero instructions, maximum density.
-
----
-
-## 🚀 Installation & Setup
-
-### 1. Prerequisites
-Make sure you have:
-* **Python 3.11+**
-* **Node.js 18+**
-
-### 2. Backend Setup
-Activate a virtual environment, install package dependencies, and run the FastAPI server:
-
+### 2. Run the FastAPI Backend
 ```bash
-# Clone the repository
+# Clone & enter folder
 git clone https://github.com/SandipGhorai-max/NEW-REPONIFY.git
 cd NEW-REPONIFY
 
-# Create and activate virtual environment
+# Setup Python environment
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
-# Install requirements
 pip install -r requirements.txt
 
-# Create .env and update your API credentials
+# Setup credentials
 cp .env.example .env
+# --> Edit .env with your Cerebras & GitHub tokens! <--
 
-# Run FastAPI backend
+# Launch server
 uvicorn main:app --reload --port 8000
 ```
 
-### 3. Frontend Setup
-Install npm packages and run Vite development server:
-
+### 3. Launch the 3D Frontend
 ```bash
-# Navigate to frontend folder
 cd frontend
-
-# Install package dependencies
 npm install
 
-# Build environment config
+# Connect to backend
 echo "VITE_API_URL=http://127.0.0.1:8000" > .env
 
-# Run dev server
+# Start dev server
 npm run dev
 ```
+> 🎉 **Navigate to `http://localhost:5173` to see it in action!**
 
-Open your browser at **`http://localhost:5173`** to access the dashboard.
+<br>
+
+<div align="center">
+  <sub>Built with ❤️ for developers who just want their projects to run.</sub>
+</div>
